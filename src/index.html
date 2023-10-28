@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Проверка номера карты</title>
+    </head>
+
+    <body>
+        <div class="page">
+            <h1 class="title">Проверка номера карты</h1>
+            <div class="wrapper">
+                <div class="wrapper-check-card">
+                    <h2>Проверьте ваш номер карты</h2>
+                    <div class="container">
+                        <ul class="cards">
+                            <li class="card visa" title="Виза"></li>
+                            <li class="card master" title="Мастеркарт"></li>
+                            <li class="card amex" title="Американ експресс"></li>
+                            <li class="card mir" title="МИР"></li>
+                            <li class="card jcb" title="Джисиби"></li>
+                        </ul>
+                    </div>
+                    <div class="filter-container">
+                        <form class="filter-widget-form">
+                            <input class="form-control" id="card_number" type="number" placeholder="Введите номер кредитки"
+                                title="" required>
+                            <button class="btn" type="submit">Нажмите для проверки</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="result"></div>
+    </body>
+
+</html>
